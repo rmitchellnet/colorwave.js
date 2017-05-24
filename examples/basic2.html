@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="../src/colorwave.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 50vh;
+            width: 100%;
+        }
+
+        #container h1 {
+            color: #fff;
+            font-size: 50px;
+            line-height: 60px;
+            letter-spacing: 2px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+            font-family: "Courier New", Courier, monospace;
+        }
+
+        #content {
+            width: 100%;
+            padding-top: 50px;
+        }
+
+        #content p {
+            width: 80%;
+            margin: 0;
+            padding: 0;
+            margin-left: 10%;
+            margin-bottom: 20px;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 1px;
+        }
+    </style>
+
+    <body>
+        <div id="container">
+            <h1>colorwave.js</h1>
+        </div>
+        <div id="content">
+            <p>Lorem ipsum dolor sit amet, ut mel elitr menandri, eu illud reque vituperata has. Mel id possim vidisse. Sed
+                quando detracto ei, purto cibo erat pro in. Nam alii erat ne, sit ex scripta facilis patrioque, no his posse
+                regione. Latine nonumes assueverit sea ne. Cu sea suas oblique, sed dicat constituam ex, quo insolens antiopam
+                te.
+            </p>
+            <p>Nullam labores mea ex. Id prompta euismod rationibus est. Ne equidem ponderum antiopam sea, est ne congue tation
+                urbanitas, nam no cetero delicatissimi. Duo te vivendum suscipiantur. Quem sensibus recteque ei nam. Id duo
+                elit invenire honestatis, graece dictas accusam at pri, has in sale soluta.</p>
+            <p>Ferri soluta deterruisset et cum. No sea graece omnesque perfecto, odio ubique integre cum an. Vel ut ridens
+                vocent oblique, at idque choro regione cum. Mel no exerci possim laboramus.</p>
+            <p>Fabellas explicari efficiendi has cu, ne ullum clita libris est. His ea vivendo adipiscing, commune omittantur
+                persequeris qui ea. Eos vivendo mandamus intellegat ne, est modus complectitur at. Ad adhuc percipit usu,
+                pro ipsum pertinacia no.</p>
+            <p>Altera accusam appetere eos an, dico summo corrumpit te ius, id mea eros offendit. His quis eius denique an.
+                Per habeo definiebas cu. Ei nam debet intellegam dissentiunt, ne pro quem incorrupte percipitur. Has ex liber
+                nominavi, deleniti appetere vel id, ei fuisset adversarium qui. Duo maiorum propriae iudicabit an. Ei cetero
+                option oporteat per, ne his quaestio cotidieque.</p>
+        </div>
+        <script>
+            window.onload = function () {
+                var colorwave = new Colorwave('#container');
+                colorwave.start();
+            };
+        </script>
+    </body>
+
+</html>
