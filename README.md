@@ -2,7 +2,7 @@ __colorwave.js__ is a simple library for adding smooth scrolling to a website.
 
 # Basic Usage
 
-__greensock is required and must be loaded before colorwave.js__
+__*greensock is required and must be loaded before colorwave.js*__
 
 ```javascript
 var colorwave = new Colorwave('.element');
